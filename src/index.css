@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-cyan: #00f2ff;
+  --color-brand-orange: #ff9d00;
+  --color-brand-dark: #050b1a;
+  --color-brand-navy: #0a192f;
+}
+
+@layer base {
+  body {
+    @apply bg-white text-brand-dark;
+  }
+}
+
+.glow-cyan {
+  text-shadow: 0 0 10px rgba(0, 242, 255, 0.5);
+}
+
+.glow-orange {
+  text-shadow: 0 0 10px rgba(255, 157, 0, 0.5);
+}
+
+.bg-gradient-brand {
+  background: linear-gradient(135deg, #050b1a 0%, #0a192f 100%);
+}
