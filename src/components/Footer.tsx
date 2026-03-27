@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Shield, Gamepad2, Twitter, Github, Linkedin, Mail } from 'lucide-react';
+import { Shield, Gamepad2, Twitter, Github, Linkedin, Mail, MessageCircle, Send as Telegram } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -44,10 +44,10 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">Join the Squad</h4>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-brand-cyan transition-colors"><Twitter className="w-5 h-5" /></a>
-              <a href="#" className="hover:text-brand-cyan transition-colors"><Linkedin className="w-5 h-5" /></a>
-              <a href="#" className="hover:text-brand-cyan transition-colors"><Github className="w-5 h-5" /></a>
-              <a href="#" className="hover:text-brand-cyan transition-colors"><Mail className="w-5 h-5" /></a>
+              <a href="https://chat.whatsapp.com/Hu3RFZqZWK3LlwOgUFYLTG" target="_blank" rel="noopener noreferrer" className="hover:text-brand-cyan transition-colors"><MessageCircle className="w-5 h-5" /></a>
+              <a href="https://chat.whatsapp.com/Hu3RFZqZWK3LlwOgUFYLTG" target="_blank" rel="noopener noreferrer" className="hover:text-brand-cyan transition-colors"><Telegram className="w-5 h-5" /></a>
+              <a href="https://chat.whatsapp.com/Hu3RFZqZWK3LlwOgUFYLTG" target="_blank" rel="noopener noreferrer" className="hover:text-brand-cyan transition-colors"><Twitter className="w-5 h-5" /></a>
+              <a href="mailto:contact@bytearena.in" className="hover:text-brand-cyan transition-colors"><Mail className="w-5 h-5" /></a>
             </div>
           </div>
         </div>

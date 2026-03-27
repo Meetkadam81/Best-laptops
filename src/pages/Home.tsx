@@ -61,9 +61,14 @@ export default function Home() {
                 <Link to="/blog/best-gaming-laptops-under-80000-india" className="bg-brand-cyan text-brand-dark px-8 py-4 rounded-xl font-black hover:bg-white transition-all shadow-lg shadow-brand-cyan/20 flex items-center justify-center gap-2 uppercase tracking-tighter">
                   View Top Laptops <ArrowRight className="w-5 h-5" />
                 </Link>
-                <Link to="/about" className="bg-white/5 text-white border border-white/10 px-8 py-4 rounded-xl font-bold hover:bg-white/10 transition-all flex items-center justify-center uppercase tracking-tighter">
-                  About the Arena
-                </Link>
+                <a 
+                  href="https://chat.whatsapp.com/Hu3RFZqZWK3LlwOgUFYLTG" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="bg-white/5 text-white border border-white/10 px-8 py-4 rounded-xl font-bold hover:bg-white/10 transition-all flex items-center justify-center uppercase tracking-tighter gap-2"
+                >
+                  Join the Community <Zap className="w-4 h-4 text-brand-orange" />
+                </a>
               </div>
             </motion.div>
             
@@ -169,9 +174,14 @@ export default function Home() {
             </div>
           </div>
           <div className="mt-12">
-            <button className="bg-brand-cyan text-brand-dark px-10 py-4 rounded-xl font-black uppercase tracking-tighter hover:bg-white transition-all shadow-xl shadow-brand-cyan/20">
+            <a 
+              href="https://chat.whatsapp.com/Hu3RFZqZWK3LlwOgUFYLTG" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-block bg-brand-cyan text-brand-dark px-10 py-4 rounded-xl font-black uppercase tracking-tighter hover:bg-white transition-all shadow-xl shadow-brand-cyan/20"
+            >
               Join the VIP Waitlist
-            </button>
+            </a>
           </div>
         </div>
         {/* Abstract Shapes */}

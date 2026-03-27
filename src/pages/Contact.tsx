@@ -1,4 +1,4 @@
-import { Mail, MapPin, Send, Twitter } from 'lucide-react';
+import { Mail, MapPin, Send, Twitter, MessageCircle } from 'lucide-react';
 
 export default function Contact() {
   return (
@@ -17,13 +17,13 @@ export default function Contact() {
             <h4 className="font-bold text-brand-dark mb-1">Email</h4>
             <p className="text-sm text-gray-500">contact@bytearena.in</p>
           </div>
-          <div className="text-center">
+          <a href="https://chat.whatsapp.com/Hu3RFZqZWK3LlwOgUFYLTG" target="_blank" rel="noopener noreferrer" className="text-center hover:opacity-80 transition-opacity">
             <div className="w-12 h-12 bg-brand-navy/5 rounded-full flex items-center justify-center mx-auto mb-4 text-brand-cyan">
-              <Twitter className="w-6 h-6" />
+              <MessageCircle className="w-6 h-6" />
             </div>
-            <h4 className="font-bold text-brand-dark mb-1">Twitter</h4>
-            <p className="text-sm text-gray-500">@ByteArenaIndia</p>
-          </div>
+            <h4 className="font-bold text-brand-dark mb-1">WhatsApp</h4>
+            <p className="text-sm text-gray-500">Join the Squad</p>
+          </a>
           <div className="text-center">
             <div className="w-12 h-12 bg-brand-navy/5 rounded-full flex items-center justify-center mx-auto mb-4 text-brand-cyan">
               <MapPin className="w-6 h-6" />

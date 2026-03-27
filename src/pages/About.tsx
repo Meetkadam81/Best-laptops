@@ -55,9 +55,17 @@ export default function About() {
             <h3 className="text-2xl font-bold mb-4 flex items-center justify-center gap-2">
               <Zap className="w-6 h-6 text-brand-orange" /> Join the Evolution
             </h3>
-            <p className="text-gray-400 mb-0">
+            <p className="text-gray-400 mb-8">
               Whether you're choosing a laptop for your engineering degree or a beast for high-end gaming, ByteArena is your ultimate ally.
             </p>
+            <a 
+              href="https://chat.whatsapp.com/Hu3RFZqZWK3LlwOgUFYLTG" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-block bg-brand-cyan text-brand-dark px-8 py-3 rounded-xl font-bold hover:bg-white transition-all uppercase tracking-tighter"
+            >
+              Join the Squad on WhatsApp
+            </a>
           </div>
         </div>
       </div>

@@ -581,9 +581,12 @@ export default function BlogPost() {
           <h3 className="text-xl font-bold text-brand-dark mb-4">Found this Intel useful? Share it with your Squad! 🎮</h3>
           <p className="text-gray-500 text-sm mb-8">Don't let your friends buy a thermal-throttling brick. Send them the ByteArena guide.</p>
           <div className="flex justify-center gap-4 mb-8">
-            <button className="bg-[#25D366] text-white px-6 py-3 rounded-xl font-bold text-sm hover:opacity-90 transition-all">WhatsApp</button>
-            <button className="bg-[#1DA1F2] text-white px-6 py-3 rounded-xl font-bold text-sm hover:opacity-90 transition-all">Twitter / X</button>
-            <button className="bg-brand-dark text-white px-6 py-3 rounded-xl font-bold text-sm hover:opacity-90 transition-all">Copy Link</button>
+            <a href="https://chat.whatsapp.com/Hu3RFZqZWK3LlwOgUFYLTG" target="_blank" rel="noopener noreferrer" className="bg-[#25D366] text-white px-6 py-3 rounded-xl font-bold text-sm hover:opacity-90 transition-all">WhatsApp</a>
+            <a href="https://chat.whatsapp.com/Hu3RFZqZWK3LlwOgUFYLTG" target="_blank" rel="noopener noreferrer" className="bg-[#1DA1F2] text-white px-6 py-3 rounded-xl font-bold text-sm hover:opacity-90 transition-all">Twitter / X</a>
+            <button onClick={() => {
+              navigator.clipboard.writeText(window.location.href);
+              alert('Link copied to clipboard!');
+            }} className="bg-brand-dark text-white px-6 py-3 rounded-xl font-bold text-sm hover:opacity-90 transition-all">Copy Link</button>
           </div>
           <div className="bg-brand-cyan/10 p-6 rounded-2xl inline-block border border-brand-cyan/20">
             <p className="text-xs font-bold text-brand-dark">🎁 ByteArena Referral: Share this link and if 5 friends visit, we'll send you our "Ultimate Optimization Guide" for free!</p>
